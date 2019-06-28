@@ -14,8 +14,7 @@ import com.jt.mapper.CartMapper;
 import com.jt.pojo.Cart;
 @Service(timeout=3000)
 public class DubboCartServiceImpl implements DubboCartService {
-	//xiongguai
-	
+	//asdasd
 	@Autowired
 	private CartMapper cartMapper;
 
