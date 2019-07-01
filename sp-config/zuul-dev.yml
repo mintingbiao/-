@@ -13,25 +13,12 @@ eureka:
 zuul:
   retryable: true
   
-rabbitmq:
+
+  rabbitmq:
     host: 192.168.92.132
     port: 5672
     username: admin
     password: admin
-    
-ribbon:
-  ConnectTimeout: 1000
-  ReadTimeout: 2000
-  MaxAutoRetriesNextServer: 1
-  MaxAutoRetries: 1
-  
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 500
 management:
   endpoints:
     web:
