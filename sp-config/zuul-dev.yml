@@ -15,7 +15,7 @@ zuul:
   
 rabbitmq:
     host: 192.168.92.132
-    port: 15672
+    port: 5672
     username: admin
     password: admin
     
